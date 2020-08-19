@@ -623,7 +623,7 @@ height: 100%;
 
 .giveSpaceRight {
 	margin-right: 10px;
-
+}
 /* Floats images to the right */
 .float-img-right
 {
@@ -668,6 +668,23 @@ height: 100%;
 	font-size: 41;
 	font-family: Helvetica, sans-serif, Times New Roman;
 	font-style: italic;
+}
+
+.rightText {
+	text-align: right;
+}
+
+.article {
+	padding: 10px;
+	margin: 10px;
+	background: aqua;
+	flex: 200px;
+}
+
+.section {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 .footer {
