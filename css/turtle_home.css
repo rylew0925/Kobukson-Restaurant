@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  background-color: #000000;
 }
 
 /* Style the header */
@@ -36,6 +37,14 @@ h4 {
 	color: rgb(0, 0, 0);
 	font-weight: bold;
 	font-size: 3rem;
+}
+
+p {
+  color: #ffffff;
+}
+
+p > div {
+  color: #ffffff;
 }
 
 robotFont {
@@ -198,7 +207,7 @@ li a:hover {
             min-height: 100%
             width: 400px
             z-index: -1
-        &::after
+			&::after
             content: 'Healthy'
             position: absolute 
             // margin: 0
@@ -331,7 +340,7 @@ li a:hover {
   align-items: center;
   justify-content: center;
   background-color: transparent;
-  border: 5px solid white;
+  border: 5px solid black;
 }
 
 .flex-container > div > img {
